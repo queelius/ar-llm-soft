@@ -7,7 +7,7 @@ This repository is dedicated to the development and experimentation of a novel a
 In an AR language model, tokens are generated using the following scheme:
 
 $$
-\Pr\{X_{n+1} = x_{n+1} | x_n, \ldots, x_{n-k+1}\}
+\Pr(X_{n+1} = x_{n+1} | x_n, \ldots, x_{n-k+1})
 $$
 
 This is $k$-th order Markov chain, where the history of states are given by the last $k$ tokens.
