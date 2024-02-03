@@ -12,7 +12,7 @@ $$
 
 This is $k$-th order Markov chain, where the history of states are given by the last $k$ tokens.
 
-We consider replacing this AR model over *soft* tokens, or more precisely, a pre-existing token embedding space.
+We consider here the idea of constructing an AR model over *soft* tokens, or more precisely, the embedding space.
 Supupose the embedding space is $R^m$, then we have an AR model over real vectors in $R^m$.
 
 ### Latent Embedding Space
